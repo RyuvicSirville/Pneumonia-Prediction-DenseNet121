@@ -67,6 +67,15 @@ In this project, DenseNet121 is used with ImageNet pre-trained weights. The base
 - Superior performance on small/noisy datasets.
 
 ---
+## Performance Results
+
+The DenseNet121-based model demonstrated strong performance on the chest X-ray test set:
+
+- **Precision:** 0.96 (Pneumonia), 0.96 (Normal)
+- **Recall:** 0.97 (Pneumonia), 0.95 (Normal)
+- **F1-Score:** 0.96 (Pneumonia), 0.95 (Normal)
+- **AUC (ROC):** 0.98
+
 
 ## Features
 - **Data Loading & Visualization:**
