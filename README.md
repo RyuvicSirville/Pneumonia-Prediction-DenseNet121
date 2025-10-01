@@ -9,7 +9,7 @@ This project demonstrates a complete deep learning pipeline for classifying ches
 The dataset consists of chest X-ray images categorized into "PNEUMONIA" and "NORMAL" classes. Below is a sample visualization from the dataset:
 
 <p align="center">
-  <img src="Image/dataset_sample.png" alt="Dataset Sample" width="600"/>
+  <img src="Images/Dataset_sample.png" alt="Dataset Sample" width="600"/>
 </p>
 
 ---
@@ -47,7 +47,7 @@ VGG16-based models require better-labeled, less noisy data and are less efficien
 DenseNet121 is a convolutional neural network architecture characterized by dense connectivity: each layer receives input from all preceding layers, promoting feature reuse and efficient gradient flow. This design reduces the number of parameters and mitigates overfitting, making it well-suited for medical imaging tasks with limited data.
 
 <p align="center">
-  <img src="Image/densenet_architecture.png" alt="DenseNet121 Architecture" width="800"/>
+  <img src="Images/DenseNet121.png" alt="DenseNet121 Architecture" width="800"/>
 </p>
 
 **Key Components:**
